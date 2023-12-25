@@ -23,7 +23,7 @@ movies=pd.DataFrame(movies_dict)
 
 similarity=pickle.load(open('similarity.pkl','rb'))
 
-st.header("Recommendations For You.")
+st.header("Movie Recommendations ")
 selected_movie_name=st.selectbox("search a movie",movies['title'].values)
 
 if st.button('Recommend'):
