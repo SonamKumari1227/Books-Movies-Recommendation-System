@@ -26,18 +26,14 @@ This project implements a recommendation system for both books and movies. The b
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/repo-name.git
-   cd repo-name
-Install Dependencies:
+   git clone https://github.com/SonamKumari1227/Books-Movies-Recommendation-System/
+   cd Books-Movies-Recommendation-System
 
-bash
-Copy code
-pip install -r requirements.txt
 Run the Application:
 
 bash
 Copy code
-streamlit run app.py
+streamlit run routing.py
 The application will be accessible at http://localhost:8501 in your web browser.
 
 Usage
