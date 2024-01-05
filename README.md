@@ -1,32 +1,43 @@
+# Books and Movies Recommendation System
 
-Books and Movies Recommendation System
+## Overview
 
-Overview
 This project implements a recommendation system for both books and movies. The books recommendation system utilizes collaborative filtering and popularity-based filtering, providing users with personalized suggestions. On the other hand, the movies recommendation system employs a content-based approach using Natural Language Processing (NLP) techniques.
 
-Features
-Books Recommendation System
-Collaborative Filtering: Recommends books based on user preferences and behaviors, leveraging collaborative filtering algorithms.
-Popularity-based Filtering: Recommends popular books that appeal to a broader audience.
-Movies Recommendation System
-Content-Based Filtering: Recommends movies based on the content analysis of textual data, incorporating Natural Language Processing (NLP) techniques.
-Technologies Used
-Python: The core programming language for the entire project.
-Scikit-learn: Used for implementing machine learning algorithms, including collaborative filtering.
-NLTK (Natural Language Toolkit): Utilized for NLP tasks in the movies recommendation system.
-Streamlit: A Python library for creating web interfaces. It's used to merge and present the recommendations in an interactive and user-friendly way.
-How to Run
-Clone the Repository:
+## Features
 
+### Books Recommendation System
+
+- **Collaborative Filtering:** Recommends books based on user preferences and behaviors, leveraging collaborative filtering algorithms.
+- **Popularity-based Filtering:** Recommends popular books that appeal to a broader audience.
+
+### Movies Recommendation System
+
+- **Content-Based Filtering:** Recommends movies based on the content analysis of textual data, incorporating Natural Language Processing (NLP) techniques.
+
+## Technologies Used
+
+- **Python:** The core programming language for the entire project.
+- **Scikit-learn:** Used for implementing machine learning algorithms, including collaborative filtering.
+- **NLTK (Natural Language Toolkit):** Utilized for NLP tasks in the movies recommendation system.
+- **Streamlit:** A Python library for creating web interfaces. It's used to merge and present the recommendations in an interactive and user-friendly way.
+
+## How to Run
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/repo-name.git
+   cd repo-name
+Install Dependencies:
+
+bash
 Copy code
-git clone https://github.com/SonamKumari1227/Books-Movies-Recommendation-System/
-cd repo-name
-
+pip install -r requirements.txt
 Run the Application:
 
 bash
 Copy code
-streamlit run routing.py
+streamlit run app.py
 The application will be accessible at http://localhost:8501 in your web browser.
 
 Usage
