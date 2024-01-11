@@ -51,6 +51,13 @@ If you'd like to contribute to this project, feel free to fork the repository an
 License
 This project is licensed under the MIT License.
 
-
 ![Image Alt Text](/graphics/pic1.png)
+
+![Image Alt Text](/graphics/pic2.png)
+
+![Image Alt Text](/graphics/pic3.png)
+
+![Image Alt Text](/graphics/pic4.png)
+
+![Image Alt Text](/graphics/pic5.png)
 
